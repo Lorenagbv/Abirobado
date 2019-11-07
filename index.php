@@ -53,168 +53,168 @@
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 
 						else if (slt1 == 1 && slt2 == 2 && slt3 == 4 && slt4 == 3){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 1 && slt2 == 3 && slt3 == 2 && slt4 == 4){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 1 && slt2 == 3 && slt3 == 4 && slt4 == 2){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 1 && slt2 == 4 && slt3 == 2 && slt4 == 3){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 1 && slt2 == 4 && slt3 == 3 && slt4 == 2){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 2 && slt2 == 1 && slt3 == 3 && slt4 == 4){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 
 						else if (slt1 == 2 && slt2 == 1 && slt3 == 4 && slt4 == 3){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 2 && slt2 == 3 && slt3 == 1 && slt4 == 4){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 2 && slt2 == 3 && slt3 == 4 && slt4 == 1){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 2 && slt2 == 4 && slt3 == 1 && slt4 == 3){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 2 && slt2 == 4 && slt3 == 3 && slt4 == 1){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 							
 						else if (slt1 == 3 && slt2 == 2 && slt3 == 1 && slt4 == 4){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 
 						else if (slt1 == 3 && slt2 == 2 && slt3 == 4 && slt4 == 1){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 3 && slt2 == 1 && slt3 == 2 && slt4 == 4){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 3 && slt2 == 1 && slt3 == 4 && slt4 == 2){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 3 && slt2 == 4 && slt3 == 2 && slt4 == 1){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 3 && slt2 == 4 && slt3 == 1 && slt4 == 2){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 
 						else if (slt1 == 4 && slt2 == 2 && slt3 == 3 && slt4 == 1){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 
 						else if (slt1 == 4 && slt2 == 2 && slt3 == 1 && slt4 == 3){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 4 && slt2 == 3 && slt3 == 2 && slt4 == 1){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 4 && slt2 == 3 && slt3 == 1 && slt4 == 2){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 4 && slt2 == 1 && slt3 == 2 && slt4 == 3){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						
 						else if (slt1 == 4 && slt2 == 1 && slt3 == 3 && slt4 == 2){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 2);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 2 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
 						}
 						//fim dos pr�mios menores
 						
@@ -223,32 +223,32 @@
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 5);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 10 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 10 + ".");
 						}
 						
 						else if (slt1 == 2 && slt2 == 2 && slt3 == 2 && slt4 == 2){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 10);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 10 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 10 + ".");
 						}
 						
 						else if (slt1 == 3 && slt2 == 3 && slt3 == 3 && slt4 == 3){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 20);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 10 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 10 + ".");
 						}
 						
 						else if (slt1 == 4 && slt2 == 4 && slt3 == 4 && slt4 == 4){
 							aposta = parseInt(aposta);
 							credito = credito + (aposta * 50);
 							document.getElementById('credito').value = 'R$ ' + credito;
-							window.alert("Parab�ns, voc� ganhou um pr�mio de R$ " + aposta * 10 + ".");
+							window.alert("Parabêns, você ganhou um prêmio de R$ " + aposta * 10 + ".");
 						} else{
 						window.alert("Voce perdeu!");
 						}
-						//fim dos pr�mios maiores
+						//fim dos prêmios maiores
 					}
 					
 					function jogar() {
