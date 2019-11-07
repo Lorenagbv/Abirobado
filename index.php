@@ -424,7 +424,7 @@
 			<img src = "img/Aposta.png" onMouseDown="this.src='img/Aposta.png';" onMouseUp="this.src='img/Aposta.png';" onclick = "apostaMais();" style="width: 200px; height: 50px;" />
 			</div>
 			<div class="col-md-4">
-			<img src = "img/apostam.png" onMouseDown="this.src='img/apostam2.png';" onMouseUp="this.src='img/apostam.png';" onclick = "apostaMenos();" style="width: 200px; height: 50px;"/>
+			<img src = "img/Apostam.png" onMouseDown="this.src='img/apostam2.png';" onMouseUp="this.src='img/Apostam.png';" onclick = "apostaMenos();" style="width: 200px; height: 50px;"/>
 			</div>
 			<div class="col-md-4">
 			<img src = "img/Jogar.png" onMouseDown="this.src='img/Jogar2.png';" onMouseUp="this.src='img/Jogar.png';" onclick = "jogar();" style="width: 230px; height: 60px;"/>
