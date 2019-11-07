@@ -1,127 +1,104 @@
-body {
-	background-color: white;
-}
 
-h1 {
-	text-align: center;
+.desenho{
+		background-color:rgba(0,0,0,0);
+		background-image:url(img/creditos.png);
+		background-position:center left;
+		background-repeat:no-repeat;
+		background-size: 100%;
+		border-color:rgba(0,0,0,0.0);
+		color:white;
+		font-size:20px;
+		text-align: right;
+		font-weight:bold;
+		padding:40px;
+		
 }
-
-a {
-	color: #000000;
+.aposta{
+		background-color:rgba(0,0,0,0);
+		background-image:url(img/creditos2.png);
+		background-position:center left;
+		background-repeat:no-repeat;
+		background-size: 100%;
+		border-color:rgba(0,0,0,0.0);
+		color:white;
+		font-size:20px;
+		text-align: right;
+		font-weight:bold;
+		padding:40px;
+		
 }
+.imagens {
+    border: 8px solid #CFCFCF;
+	border-radius: 5px;
+	}
+ 
+.imagens2 {
+    border: 8px solid #CFCFCF;
+	border-radius: 5px;
+	width:90px;
+	height:90px;
+	}
+ 
 
-a:hover {
-	color: #000000;
-}
-
-#corpo {
+.buttons {
 	margin-left: auto;
 	margin-right: auto;
-	width: 700px;
-	height: 500px;
-	background-color: white;
-	border: 2px solid black;
+	margin-top: 60px;
+	
+}
+.modal-header {
+  padding: 2px 16px;
+background-color: #FFD700;}
+.modal-title{
+  color: white;
+  font-size:15px;
+  font-weight:bold;
 }
 
-#corpo2 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 700px;
-	height: 1050px;
-	background-color: lightblue;
-	border: medium dashed black;
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
 }
 
-#tela {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 65px;
-	width: 500px;
-	height: 120px;
-	background-color: white;
-	border: medium solid black;
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
 }
 
-#botoes {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 85px;
-	width: 460px;
-}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #000000;
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}					
 
-#creditos_txt {
-	margin-left: 80px;
-	margin-top: 30px;
-	font-weight: bold;
-	float: left;
-}
-
-#creditos {
-	clear: left;
-	margin-left: 75px;
-	float: left;
-}
-
-#valor_txt {
-	margin-left: 530px;
-	margin-top: 30px;
-	font-weight: bold;
-}
-
-#valor {
-	margin-left: 560px;
-}
-
-#slt1 {
-	margin-top: 5px;
-	padding-left: 17px;
-	padding-right: 17px;
-	float: left;
-	border-right: thin dashed black;
-	width: 90px;
-	height: 90px;
-	vertical-align: middle;
-}
-
-#slt2 {
-	margin-top: 5px;
-	padding-left: 17px;
-	padding-right: 17px;
-	float: left;
-	border-right: thin dashed black;
-	width: 90px;
-	height: 90px;
-	vertical-align: middle;
-}
-
-#slt3 {
-	margin-top: 5px;
-	padding-left: 17px;
-	padding-right: 17px;
-	float: left;
-	border-right: thin dashed black;
-	width: 90px;
-	height: 90px;
-	vertical-align: middle;
-}
-
-#slt4 {
-	margin-top: 5px;
-	padding-left: 17px;
-	padding-right: 17px;
-	float: left;
-	width: 90px;
-	height: 90px;
-	vertical-align: middle;
-}
-
-#rodapé {
-	margin-left: 113px
-}
-
-#tabela {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	font-weight: bold;
+.pacote{
+		
+		color:white;
+		font-size:20px;
+		text-align: center;
+		font-weight:bold;
+		padding:40px;
+		
 }
