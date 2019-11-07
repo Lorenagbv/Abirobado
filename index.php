@@ -369,7 +369,7 @@
 						  <span class="icon-bar"></span>
 						</button>
 						 <div class="navbar-img">
-						 <img src="img/logo.png" alt="some text" width=300 height=100>
+						 <img src="img/logo.png" alt="some text" width=300 height=70>
 						 
 						</div>
 					  </div>
@@ -389,46 +389,46 @@
 			<div class="col-md-8">
 			<div class="row ">
 			<div class="col-md-2"></div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 			<form>
 					<input id = "credito" class="desenho" type = "text" size = "5" value = "R$ 0" readonly />
 			</form>
 			</div>
-			<div class="col-md-2"></div>
-			<div class="col-md-3">
+			<div class="col-md-2 col-sm-1"></div>
+			<div class="col-md-3 col-sm-6">
 			<form>
-					<input id = "aposta" class="aposta" type = "text" size = "1" value = "R$1" readonly />
+					<input id = "aposta" class="bug" type = "text" size = "1" value = "R$ 1" readonly />
 			</form>
 			</div>
 			
 			
 			</div>
-			<div class="row">
-			<div class="col-md-3">
+			<div class="row center">
+			<div class="col-md-3 col-sm-6">
 			<img id = "img1" class="imagens" src = "img/1.jpeg" />
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3  col-sm-6">
 			<img id = "img2" class="imagens" src = "img/2.jpeg" />
 			</div>
-			<div class="col-md-3 ">
+			<div class="col-md-3 col-sm-6">
 			<img id = "img3" class="imagens" src = "img/3.jpeg" />
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 			<img id = "img4" class="imagens" src = "img/4.jpeg" />
 			</div>
 			
 	
 			</div>
-			<div class="row buttons">
-			<div class="col-md-4">
-			<img src = "img/Aposta.png" onMouseDown="this.src='img/Aposta.png';" onMouseUp="this.src='img/Aposta.png';" onclick = "apostaMais();" style="width: 200px; height: 50px;" />
+			<div class="row ">
+			<div class="col-md-4 col-sm-4">
+			<img src = "img/Aposta.png" class="buttons "onMouseDown="this.src='img/Aposta.png';" onMouseUp="this.src='img/Aposta.png';" onclick = "apostaMais();"  />
 			</div>
-			<div class="col-md-4">
-			<img src = "img/Apostam.png" onMouseDown="this.src='img/apostam2.png';" onMouseUp="this.src='img/Apostam.png';" onclick = "apostaMenos();" style="width: 200px; height: 50px;"/>
+			<div class="col-md-4 col-sm-4">
+			<img src = "img/apostam.png" class="buttons" onMouseDown="this.src='img/apostam2.png';" onMouseUp="this.src='img/apostam.png';" onclick = "apostaMenos();"/>
 			</div>
-			<div class="col-md-4">
-			<img src = "img/Jogar.png" onMouseDown="this.src='img/Jogar2.png';" onMouseUp="this.src='img/Jogar.png';" onclick = "jogar();" style="width: 230px; height: 60px;"/>
-				</div>
+			<div class="col-md-4 col-sm-4">
+			<img src = "img/Jogar.png" class="buttons"onMouseDown="this.src='img/Jogar2.png';" onMouseUp="this.src='img/Jogar.png';" onclick = "jogar();" />
+			</div>
 			
 			
 	
@@ -437,7 +437,7 @@
 			</div>
 			</div>
 			</div>
-			<div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal fade modal-sm modal-lg" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			  <div class="modal-dialog" role="document">
 				<div class="modal-content">
 				  <div class="modal-header">
@@ -450,12 +450,11 @@
 					<div class="container-fluid">
 					<div class="row">
 					<div class="col-md-6 pacote">
-					<img src = "img/f1.jpg" style="width:150px; height:267px;"/>
-					
+					<img src = "img/f1.jpg" style="width:150px; height:267px;"/></br>
 					<button type="button" class="btn myButton" style="width:150px;"> Comprar agora</button>
 					</div>
 					<div class="col-md-6 pacote">
-					<img src = "img/f2.jpg" style="width:150px;height:267px;"/>
+					<img src = "img/f2.jpg" style="width:150px;height:267px;"/></br>
 					<button type="button" class="btn myButton" style="width:150px;"> Comprar agora</button>
 					</div>
 					</div>
@@ -467,55 +466,59 @@
 			  </div>
 			  
 			  
-			  <div class="modal fade" id="Regras" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  <div class="modal-dialog" role="document">
-				<div class="modal-content">
-				  <div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Regras</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-					  <span aria-hidden="true">&times;</span>
-					</button>
-				  </div>
-				  <div class="modal-body">
-					<div class="container-fluid">
+			  <div class="modal modal-sm fade modal-lg" id="Regras" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Regras</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
 					<div class="row">
 						<p style="color:black;"> 4 Imagens diferentes: Aposta multiplicada por 2;</p>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3">
 						<img class="imagens2" src = "img/1.jpeg" />
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3">
 						<img class="imagens2" src = "img/2.jpeg" />
 						</div>
-						<div class="col-md-3 ">
+						<div class="col-md-3 col-sm-3">
 						<img class="imagens2" src = "img/3.jpeg" />
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3">
 						<img class="imagens2" src = "img/4.jpeg" />
 						</div>
 				
 					</div>
 					<div class="row">
 						<p style="color:black;"> 4 Imagens Iguais: Aposta multiplicada por 10;</p>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3">
 						<img class="imagens2" src = "img/1.jpeg" />
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3">
 						<img class="imagens2" src = "img/1.jpeg" />
 						</div>
-						<div class="col-md-3 ">
+						<div class="col-md-3 col-sm-3">
 						<img class="imagens2" src = "img/1.jpeg" />
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3">
 						<img class="imagens2" src = "img/1.jpeg" />
 						</div>
 				
 					</div>
 					
 					</div>
-				 
-				</div>
-			  </div>
-			</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Fechar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
 			<body/>
 			<script src="js/jquery.js"></script>
 			<script src="js/bootstrap.min.js"></script>
