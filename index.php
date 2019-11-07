@@ -391,13 +391,13 @@
 			<div class="col-md-2"></div>
 			<div class="col-md-3 col-sm-6">
 			<form>
-					<input id = "credito" class="desenho" type = "text" size = "5" value = "R$ 0" readonly />
+					<input id = "credito" class="desenho" type = "text" size = "5" value = "R$ 10" readonly />
 			</form>
 			</div>
 			<div class="col-md-2 col-sm-1"></div>
 			<div class="col-md-3 col-sm-6">
 			<form>
-					<input id = "aposta" class="bug" type = "text" size = "1" value = "R$ 1" readonly />
+					<input id = "aposta" class="desenho" type = "text" size = "5" value = "R$ 1" readonly />
 			</form>
 			</div>
 			
@@ -450,11 +450,11 @@
 					<div class="container-fluid">
 					<div class="row">
 					<div class="col-md-6 pacote">
-					<img src = "img/f1.jpg" style="width:150px; height:267px;"/></br>
+					<img src = "img/f1.jpg" style="width:150px; height:267px;"/><br>
 					<button type="button" class="btn myButton" style="width:150px;"> Comprar agora</button>
 					</div>
 					<div class="col-md-6 pacote">
-					<img src = "img/f2.jpg" style="width:150px;height:267px;"/></br>
+					<img src = "img/f2.jpg" style="width:150px;height:267px;"/><br>
 					<button type="button" class="btn myButton" style="width:150px;"> Comprar agora</button>
 					</div>
 					</div>
@@ -522,4 +522,4 @@
 			<body/>
 			<script src="js/jquery.js"></script>
 			<script src="js/bootstrap.min.js"></script>
-			</html>
+</html>
