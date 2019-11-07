@@ -86,13 +86,8 @@ padding-left:20px;
 	font-size:18px !important;
 	
 }
-.navbar-img{
-	padding-top: 10px;
-	padding-left: 5px;
-	width:400px;
-	height:80px;
-	
-}
+
+
 .navbar-inverse .navbar-nav>li>a{color:#3e4095; font-weight: bold; }
 .tr{color:#FFD700 !important; font-weight: bold; font-size:20px; margin-top:10px;}
 .navbar-inverse .navbar-nav>li>a:hover{
@@ -243,7 +238,13 @@ span.round-tab:hover {
         height: 50px;
         line-height: 50px;
     }
-
+	.navbar-img{
+	padding-top: 10px;
+	margin-left:-10px;
+	width:200px;
+	height:80px;
+	
+	}
     .wizard .nav-tabs > li a {
         width: 50px;
         height: 50px;
@@ -255,8 +256,16 @@ span.round-tab:hover {
         position: absolute;
         left: 35%;
     }
+.imagens{
+	width:90px;
+	height:90px;
+	float:center
 }
 
+}
+.center{
+	float:center;
+}
 
 .background-blue{
 	background-color:blue;
